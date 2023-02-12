@@ -59,7 +59,7 @@ main img {
     border-radius: 10px;
 }
 
-main h3 {
+main h1 {
     color: var(--Dark-blue);
     text-align: center;
     font-weight: bold;
