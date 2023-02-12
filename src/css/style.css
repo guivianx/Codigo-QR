@@ -1,0 +1,83 @@
+:root {
+    --White: #fff;
+    --Light-gray: #d6e2f0;
+    --Grayish-blue: #7b879d;
+    --Dark-blue: #1f3251;
+
+    --fonte: 'Outfit', 'cursive';
+}
+
+body {
+    background-color: var(--Light-gray);
+    font-family: var(--fonte);
+    overflow-x: hidden;
+}
+
+div {
+    width: 100vw;
+    height: calc(100vh - 40px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main {
+    padding: 10px 15px 15px 15px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.072);
+    background-color: white;
+    flex-direction: column;
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    width: 240px;
+    gap: 5px;
+}
+
+main img {
+    width: 220px;
+    height: 225px;
+    border-radius: 10px;
+}
+
+main h3 {
+    color: var(--Dark-blue);
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 10px 0px 10px;
+}
+
+main p {
+    color: var(--Grayish-blue);
+    text-align: center;
+    padding: 10px 10px 15px 10px;
+    font-size: 12px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer p {
+    text-align: center;
+    background-color: #000;
+    color: var(--White);
+    padding: 10px;
+    width: 100vw;
+}
+
+footer a {
+    color: var(--White);
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: var(--Light-gray);
+    
+}
