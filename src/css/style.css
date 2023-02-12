@@ -14,7 +14,7 @@ body {
 }
 
 
-header h1 {
+header p {
     text-align: center;
     background-color: #000;
     color: var(--White);
