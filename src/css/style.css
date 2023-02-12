@@ -15,7 +15,7 @@ body {
 
 div {
     width: 100vw;
-    height: calc(100vh - 40px);
+    height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -81,3 +81,8 @@ footer a:hover {
     color: var(--Light-gray);
     
 }
+
+footer a:visited {
+    color: #fff;
+}
+
